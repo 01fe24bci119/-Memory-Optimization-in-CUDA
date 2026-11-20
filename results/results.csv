@@ -1,0 +1,4 @@
+operation,matrix_size,execution_time_ms,performance,verification
+Uncoalesced transpose,4096x4096,0.791,169.7 GB/s,PASS
+Coalesced transpose,4096x4096,0.413,324.7 GB/s,PASS
+Naive matrix multiplication,1024x1024,1.388,1546.7 GFLOPS,PASS

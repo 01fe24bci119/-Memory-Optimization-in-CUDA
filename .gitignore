@@ -1,0 +1,21 @@
+# Compiled binaries and object files
+*.exe
+*.obj
+*.o
+
+# CUDA intermediate/build outputs
+*.ptx
+*.cubin
+*.fatbin
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and OS files
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
